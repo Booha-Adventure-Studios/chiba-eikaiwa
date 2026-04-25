@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>千葉英会話ガイド | The Best Guide to Boutique English Schools in Chiba</title>
+  <meta name="description" content="千葉県の小規模・個性派英会話スクールを紹介するガイド。The best guide to boutique English schools across Chiba Prefecture — small, independent, carefully chosen.">
+  <meta name="keywords" content="英会話 千葉, boutique English school Chiba, 英語教室 千葉県, 小規模英会話, 個人英会話教室, 成田 英会話, 富里 英会話, 千葉市 英語">
+  <meta property="og:title" content="The Best Guide to Boutique English Schools in Chiba | 千葉英会話ガイド">
+  <meta property="og:description" content="Small, independent English schools across Chiba Prefecture. The best guide to boutique eikaiwa.">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "千葉英会話ガイド",
+    "description": "A curated guide to English conversation schools across Chiba Prefecture, Japan.",
+    "inLanguage": ["ja","en"]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --ink:#1c1c1a;
+      --ink-mid:#4a4a46;
+      --ink-soft:#888880;
+      --ink-faint:#b8b8b0;
+      --page:#f7f6f2;
+      --white:#ffffff;
+      --card-bg:#ffffff;
+      --rule:#e4e2da;
+      --rule-mid:#cccac2;
+      --accent:#2a7a4a;
+      --accent-light:#e8f4ec;
+      --accent-mid:#5aaa72;
+      --fun1:#f5a623;
+      --fun1-light:#fff8ed;
+      --fun2:#e8523a;
+      --fun2-light:#fef0ee;
+      --fun3:#3a8fe8;
+      --fun3-light:#edf4fe;
+      --fun4:#8e44ad;
+      --fun4-light:#f5eefa;
+      --sans:'Nunito',sans-serif;
+      --jp:'Noto Sans JP',sans-serif;
+      --r:12px;
+      --r-lg:18px;
+      --r-pill:100px;
+      --max:980px;
+      --shadow:0 2px 12px rgba(0,0,0,0.07);
+    }
+    html{scroll-behavior:smooth}
+    body{font-family:var(--sans);background:var(--page);color:var(--ink);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+
+    /* HEADER */
+    .site-header{background:var(--white);border-bottom:1px solid var(--rule);padding:0 1.5rem}
+    .header-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:1rem 0;gap:1rem}
+    .logo-mark{display:flex;align-items:center;gap:0.6rem;text-decoration:none}
+    .logo-bubble{width:36px;height:36px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .logo-bubble svg{width:20px;height:20px;fill:white}
+    .logo-text{font-family:var(--sans);font-size:1.05rem;font-weight:800;color:var(--ink);line-height:1.2}
+    .logo-text span{display:block;font-size:0.65rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.06em;text-transform:uppercase}
+    .header-lang{font-size:0.75rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.04em}
+
+    /* HERO / SLIDESHOW */
+    .hero{background:var(--white);border-bottom:1px solid var(--rule);padding:3rem 1.5rem 2.5rem;overflow:hidden}
+    .hero-inner{max-width:var(--max);margin:0 auto}
+    .hero-kicker{font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.85rem}
+    .hero h1{font-family:var(--sans);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;color:var(--ink);line-height:1.2;margin-bottom:0.5rem}
+    .hero h1 em{font-style:normal;color:var(--accent)}
+    .hero-sub{font-family:var(--jp);font-size:0.92rem;color:var(--ink-mid);margin-bottom:2rem;line-height:1.75}
+
+    /* LOGO PARADE */
+    .slideshow-wrap{position:relative;height:130px;overflow:hidden;margin-bottom:0}
+    .slideshow-track{position:relative;width:100%;height:130px}
+    .slide-item{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.6s ease}
+    .slide-item.active{opacity:1}
+    .slide-logo-box{display:flex;flex-direction:column;align-items:center;gap:0.75rem}
+    .slide-logo{width:90px;height:90px;border-radius:var(--r-lg);display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-size:1.9rem;font-weight:800;border:2px solid rgba(0,0,0,0.06)}
+    .slide-school-name{font-family:var(--jp);font-size:0.82rem;font-weight:500;color:var(--ink-mid);text-align:center}
+    .slide-dots{display:flex;justify-content:center;gap:6px;margin-top:1rem}
+    .slide-dot{width:7px;height:7px;border-radius:50%;background:var(--rule-mid);cursor:pointer;transition:background 0.2s,transform 0.2s}
+    .slide-dot.active{background:var(--accent);transform:scale(1.3)}
+
+    /* CITY NAV */
+    .city-nav{background:var(--page);border-bottom:1px solid var(--rule);padding:1rem 1.5rem;position:sticky;top:0;z-index:10}
+    .city-nav-inner{max-width:var(--max);margin:0 auto;display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center}
+    .city-label{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-faint);margin-right:0.25rem}
+    .city-btn{font-family:var(--jp);font-size:0.82rem;font-weight:500;padding:0.38rem 0.95rem;border-radius:var(--r-pill);border:1.5px solid var(--rule-mid);background:transparent;color:var(--ink-mid);cursor:pointer;transition:all 0.15s;white-space:nowrap}
+    .city-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light)}
+    .city-btn.active{background:var(--accent);border-color:var(--accent);color:white;font-weight:700}
+
+    /* MAIN */
+    .main{max-width:var(--max);margin:0 auto;padding:2.5rem 1.5rem 4rem}
+
+    /* SECTION */
+    .city-section{margin-bottom:3rem}
+    .city-section-head{display:flex;align-items:baseline;gap:0.75rem;margin-bottom:1.25rem;padding-bottom:0.75rem;border-bottom:2px solid var(--ink);position:relative}
+    .city-section-head h2{font-size:1.3rem;font-weight:800;color:var(--ink)}
+    .city-section-head .city-en{font-size:0.82rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.04em}
+    .school-count-badge{margin-left:auto;font-size:0.72rem;font-weight:700;color:var(--ink-soft);background:var(--page);border:1px solid var(--rule-mid);border-radius:var(--r-pill);padding:0.2rem 0.7rem}
+
+    /* SCHOOL CARDS GRID */
+    .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.25rem}
+
+    /* SCHOOL CARD */
+    .school-card{background:var(--card-bg);border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:border-color 0.15s,transform 0.15s}
+    .school-card:hover{border-color:var(--rule-mid);transform:translateY(-2px)}
+
+    .card-header{padding:1.25rem 1.25rem 1rem;display:flex;align-items:flex-start;gap:0.9rem;border-bottom:1px solid var(--rule)}
+    .card-logo{width:56px;height:56px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-size:1.2rem;font-weight:800;flex-shrink:0;border:1.5px solid rgba(0,0,0,0.07)}
+    .card-logo img{width:100%;height:100%;object-fit:contain;border-radius:var(--r)}
+    .card-name-block{flex:1;min-width:0}
+    .card-name{font-family:var(--jp);font-size:1rem;font-weight:700;color:var(--ink);line-height:1.3;margin-bottom:0.15rem}
+    .card-name-en{font-size:0.75rem;font-weight:600;color:var(--ink-soft);margin-bottom:0.4rem}
+    .card-location-row{display:flex;align-items:center;gap:0.4rem;font-family:var(--jp);font-size:0.75rem;color:var(--ink-soft)}
+    .loc-dot{width:5px;height:5px;border-radius:50%;background:var(--ink-faint);flex-shrink:0}
+
+    .age-tags{display:flex;flex-wrap:wrap;gap:0.35rem;padding:0.85rem 1.25rem;border-bottom:1px solid var(--rule)}
+    .age-tag{font-family:var(--jp);font-size:0.7rem;font-weight:700;padding:0.22rem 0.65rem;border-radius:var(--r-pill);border:1.5px solid}
+
+    .card-prices{padding:0.9rem 1.25rem;border-bottom:1px solid var(--rule)}
+    .price-label{font-size:0.68rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:0.5rem}
+    .price-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.3rem;gap:0.5rem}
+    .price-name{font-family:var(--jp);font-size:0.78rem;color:var(--ink-mid);flex:1}
+    .price-amount{font-family:var(--sans);font-size:0.88rem;font-weight:700;color:var(--ink);white-space:nowrap}
+
+    .card-points{padding:0.9rem 1.25rem;flex:1;border-bottom:1px solid var(--rule)}
+    .points-label{font-size:0.68rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:0.6rem}
+    .point-item{display:flex;gap:0.55rem;margin-bottom:0.5rem;align-items:flex-start}
+    .point-dot{width:5px;height:5px;border-radius:50%;margin-top:0.52em;flex-shrink:0}
+    .point-text{font-family:var(--jp);font-size:0.8rem;color:var(--ink-mid);line-height:1.6}
+
+    .card-lang-toggle{display:flex;gap:0;padding:0 1.25rem 0.75rem}
+    .lang-btn{font-size:0.68rem;font-weight:700;padding:0.2rem 0.65rem;border:1px solid var(--rule-mid);background:transparent;cursor:pointer;color:var(--ink-soft);transition:all 0.12s}
+    .lang-btn:first-child{border-radius:var(--r-pill) 0 0 var(--r-pill)}
+    .lang-btn:last-child{border-radius:0 var(--r-pill) var(--r-pill) 0;border-left:none}
+    .lang-btn.active{background:var(--ink);color:white;border-color:var(--ink)}
+
+    .card-footer{padding:1rem 1.25rem}
+    .visit-btn{display:block;width:100%;padding:0.7rem 1rem;border-radius:var(--r);font-family:var(--sans);font-size:0.88rem;font-weight:700;text-align:center;text-decoration:none;transition:all 0.15s;cursor:pointer;border:none}
+
+    /* EMPTY STATE */
+    .empty-state{text-align:center;padding:3rem 1rem;color:var(--ink-soft)}
+    .empty-state p{font-family:var(--jp);font-size:0.95rem;margin-top:0.5rem}
+
+    /* FOOTER */
+    .site-footer{background:var(--ink);color:var(--ink-faint);padding:2rem 1.5rem;margin-top:3rem}
+    .footer-inner{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:flex-start}
+    .footer-name{font-family:var(--sans);font-size:0.95rem;font-weight:800;color:white;margin-bottom:0.4rem}
+    .footer-text{font-family:var(--jp);font-size:0.78rem;line-height:1.7}
+    .footer-copy{font-size:0.72rem;margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.1);max-width:var(--max);margin-left:auto;margin-right:auto;color:var(--ink-soft)}
+
+    @media(max-width:640px){
+      .hero{padding:2.5rem 1.2rem 2rem}
+      .main{padding:2rem 1.2rem 3rem}
+      .cards-grid{grid-template-columns:1fr}
+      .site-footer{padding:1.5rem 1.2rem}
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo-mark">
+      <div class="logo-bubble">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/><path d="M8 6h2v2H8zm6 0h2v2h-2z" fill="none"/><circle cx="12" cy="12" r="3" fill="white" opacity="0.3"/><path d="M7 9l2 2 4-4" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      </div>
+      <div class="logo-text">
+        千葉英会話ガイド
+        <span>Chiba Eikaiwa Guide</span>
+      </div>
+    </a>
+    <span class="header-lang">千葉県 · Chiba Prefecture</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-kicker">千葉県 · Chiba Prefecture</div>
+    <h1>The best guide to <em>boutique</em><br>English schools in Chiba.</h1>
+    <p class="hero-sub">
+      小規模で、丁寧に選ばれた英会話スクールだけを紹介します。大手チェーンではなく、本物の英語教育を。<br>
+      Small, independent, carefully chosen — every school here is the real thing.
+    </p>
+    <div class="slideshow-wrap" id="slideshow">
+      <div class="slideshow-track" id="slideshowTrack"></div>
+    </div>
+    <div class="slide-dots" id="slideDots"></div>
+  </div>
+</section>
+
+<nav class="city-nav">
+  <div class="city-nav-inner">
+    <span class="city-label">エリア</span>
+    <button class="city-btn active" data-city="all">すべて / All</button>
+    <div id="cityButtons"></div>
+  </div>
+</nav>
+
+<main class="main" id="schoolsMain">
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-name">千葉英会話ガイド</div>
+      <div class="footer-text">
+        千葉県の小規模・個性派英会話スクールを紹介するガイド。<br>
+        The best guide to boutique English schools across Chiba Prefecture.
+      </div>
+    </div>
+    <div>
+      <div class="footer-text" style="font-family:var(--sans);font-size:0.8rem;">
+        掲載希望のスクールはお問い合わせください。<br>
+        <a href="https://www.bryanharper.tokyo" style="color:#5aaa72;font-weight:600;" target="_blank" rel="noopener">chiba-eikaiwa.github.io</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copy">© 2025 千葉英会話ガイド · Chiba Eikaiwa Guide</div>
+</footer>
+
+<script src="schools.js"></script>
+<script>
+  const AGE_COLORS = [
+    {bg:'#fff0e8',border:'#f5a070',text:'#a03000'},
+    {bg:'#e8f4ff',border:'#70a8f5',text:'#003080'},
+    {bg:'#e8fff0',border:'#70d490',text:'#006030'},
+    {bg:'#f5e8ff',border:'#b870f5',text:'#500080'},
+    {bg:'#fff8e0',border:'#f0c040',text:'#806000'},
+    {bg:'#ffe8f0',border:'#f070a8',text:'#800040'},
+  ];
+  const VISIT_COLORS = [
+    {bg:'#2a7a4a',hover:'#1e5e38'},
+    {bg:'#1a4a8a',hover:'#13366a'},
+    {bg:'#8a1a4a',hover:'#6a1336'},
+    {bg:'#4a2a8a',hover:'#36206a'},
+    {bg:'#8a4a1a',hover:'#6a3613'},
+  ];
+
+  function getSchoolColor(index){return VISIT_COLORS[index % VISIT_COLORS.length]}
+
+  function buildSlideshow(){
+    const track = document.getElementById('slideshowTrack');
+    const dots = document.getElementById('slideDots');
+    const first = SCHOOLS[0];
+    const rest = [...SCHOOLS.slice(1)].sort(()=>Math.random()-0.5);
+    const shuffled = [first, ...rest];
+    shuffled.forEach((s,i)=>{
+      const slide = document.createElement('div');
+      slide.className = 'slide-item' + (i===0?' active':'');
+      const logoHtml = s.logo
+        ? `<img src="${s.logo}" alt="${s.name} ロゴ">`
+        : `<span style="color:${s.logoTextColor}">${s.logoInitials}</span>`;
+      slide.innerHTML = `
+        <div class="slide-logo-box">
+          <div class="slide-logo" style="background:${s.logoColor};border-color:${s.logoColor}20">${logoHtml}</div>
+          <div class="slide-school-name">${s.name}</div>
+        </div>`;
+      track.appendChild(slide);
+      const dot = document.createElement('div');
+      dot.className = 'slide-dot' + (i===0?' active':'');
+      dot.addEventListener('click',()=>goToSlide(i));
+      dots.appendChild(dot);
+    });
+    let current = 0;
+    function goToSlide(n){
+      track.querySelectorAll('.slide-item').forEach((el,i)=>el.classList.toggle('active',i===n));
+      dots.querySelectorAll('.slide-dot').forEach((el,i)=>el.classList.toggle('active',i===n));
+      current = n;
+    }
+    window._goToSlide = goToSlide;
+    window._slideCount = shuffled.length;
+    setInterval(()=>goToSlide((current+1)%shuffled.length), 2800);
+  }
+
+  function buildCityNav(){
+    const cities = [...new Set(SCHOOLS.map(s=>s.city))];
+    const container = document.getElementById('cityButtons');
+    cities.forEach(city=>{
+      const school = SCHOOLS.find(s=>s.city===city);
+      const btn = document.createElement('button');
+      btn.className = 'city-btn';
+      btn.dataset.city = city;
+      btn.textContent = city + ' / ' + school.cityEn;
+      btn.addEventListener('click',()=>filterByCity(city));
+      container.appendChild(btn);
+    });
+    document.querySelector('.city-btn[data-city="all"]').addEventListener('click',()=>filterByCity('all'));
+  }
+
+  function filterByCity(city){
+    document.querySelectorAll('.city-btn').forEach(b=>b.classList.toggle('active',b.dataset.city===city));
+    document.querySelectorAll('.city-section').forEach(sec=>{
+      sec.style.display = (city==='all'||sec.dataset.city===city)?'':'none';
+    });
+  }
+
+  function buildCard(school, cardIndex){
+    const color = getSchoolColor(cardIndex);
+    const logoHtml = school.logo
+      ? `<img src="${school.logo}" alt="${school.name}">`
+      : `<span style="color:${school.logoTextColor};font-size:1.1rem">${school.logoInitials}</span>`;
+    const ageTags = school.ages.map((age,i)=>{
+      const c = AGE_COLORS[i % AGE_COLORS.length];
+      return `<span class="age-tag" style="background:${c.bg};border-color:${c.border};color:${c.text}">${age}</span>`;
+    }).join('');
+    const priceRows = school.prices.map(p=>
+      `<div class="price-row">
+        <span class="price-name">${p.label}</span>
+        <span class="price-amount">${p.amount}</span>
+      </div>`
+    ).join('');
+    const pointsJp = school.points.map(p=>
+      `<div class="point-item">
+        <div class="point-dot" style="background:${color.bg}"></div>
+        <span class="point-text jp-point">${p}</span>
+      </div>`
+    ).join('');
+    const pointsEn = school.pointsEn.map(p=>
+      `<div class="point-item">
+        <div class="point-dot" style="background:${color.bg}"></div>
+        <span class="point-text en-point" style="font-family:var(--sans)">${p}</span>
+      </div>`
+    ).join('');
+    const isExternal = school.website && school.website !== '#';
+    const btnLabel = isExternal ? 'ウェブサイトへ → Visit website' : '準備中 / Coming soon';
+    const btnStyle = isExternal
+      ? `background:${color.bg};color:white;`
+      : `background:var(--rule);color:var(--ink-soft);cursor:default;`;
+    return `
+      <article class="school-card" data-id="${school.id}">
+        <div class="card-header">
+          <div class="card-logo" style="background:${school.logoColor}">${logoHtml}</div>
+          <div class="card-name-block">
+            <div class="card-name">${school.name}</div>
+            <div class="card-name-en">${school.nameEn}</div>
+            <div class="card-location-row">
+              <span class="loc-dot"></span>
+              ${school.city} / ${school.cityEn}
+            </div>
+          </div>
+        </div>
+        <div class="age-tags">${ageTags}</div>
+        <div class="card-prices">
+          <div class="price-label">料金 / Prices</div>
+          ${priceRows}
+        </div>
+        <div class="card-points">
+          <div class="points-label">おすすめポイント / Why join</div>
+          ${pointsJp}${pointsEn}
+        </div>
+        <div class="card-lang-toggle">
+          <button class="lang-btn active" onclick="setLang(this,'jp')">日本語</button>
+          <button class="lang-btn" onclick="setLang(this,'en')">English</button>
+        </div>
+        <div class="card-footer">
+          ${isExternal
+            ? `<a href="${school.website}" class="visit-btn" style="${btnStyle}" target="_blank" rel="noopener">${btnLabel}</a>`
+            : `<div class="visit-btn" style="${btnStyle}">${btnLabel}</div>`
+          }
+        </div>
+      </article>`;
+  }
+
+  function setLang(btn, lang){
+    const card = btn.closest('.school-card');
+    card.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active',b===btn));
+    card.querySelectorAll('.jp-point').forEach(el=>el.style.display=lang==='jp'?'':'none');
+    card.querySelectorAll('.en-point').forEach(el=>el.style.display=lang==='en'?'':'none');
+  }
+
+  function buildSchools(){
+    const main = document.getElementById('schoolsMain');
+    const cities = [...new Set(SCHOOLS.map(s=>s.city))];
+    let globalIndex = 0;
+    cities.forEach(city=>{
+      const citySchools = SCHOOLS.filter(s=>s.city===city);
+      const sec = document.createElement('div');
+      sec.className = 'city-section';
+      sec.dataset.city = city;
+      const cityEn = citySchools[0].cityEn;
+      sec.innerHTML = `
+        <div class="city-section-head">
+          <h2>${city}</h2>
+          <span class="city-en">${cityEn}</span>
+          <span class="school-count-badge">${citySchools.length} スクール</span>
+        </div>
+        <div class="cards-grid" id="grid-${city}"></div>`;
+      main.appendChild(sec);
+      const grid = sec.querySelector('.cards-grid');
+      citySchools.forEach(school=>{
+        grid.innerHTML += buildCard(school, globalIndex);
+        globalIndex++;
+      });
+    });
+    document.querySelectorAll('.jp-point').forEach(el=>el.style.display='');
+    document.querySelectorAll('.en-point').forEach(el=>el.style.display='none');
+    document.querySelectorAll('.visit-btn[style*="#"]').forEach(btn=>{
+      const color = btn.style.background;
+      btn.addEventListener('mouseenter',()=>{
+        const idx = SCHOOLS.findIndex(s=>btn.closest('[data-id]').dataset.id===s.id);
+        const c = getSchoolColor(idx < 0 ? 0 : idx);
+        btn.style.background = c.hover;
+      });
+      btn.addEventListener('mouseleave',()=>{
+        const idx = SCHOOLS.findIndex(s=>btn.closest('[data-id]').dataset.id===s.id);
+        const c = getSchoolColor(idx < 0 ? 0 : idx);
+        btn.style.background = c.bg;
+      });
+    });
+  }
+
+  buildSlideshow();
+  buildCityNav();
+  buildSchools();
+</script>
+</body>
+</html>
