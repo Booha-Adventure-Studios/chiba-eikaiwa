@@ -5,189 +5,269 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>千葉英会話ガイド | The Best Guide to English Schools in Chiba</title>
-  <meta name="description" content="千葉県の小規模・個性派英会話スクールを紹介するガイド。The best guide to boutique English schools across Chiba Prefecture — small, independent, carefully chosen.">
+  <meta name="description" content="千葉県の小規模・個性派英会話スクールを紹介するガイド。The best guide to boutique English schools across Chiba Prefecture.">
   <meta name="keywords" content="英会話 千葉, boutique English school Chiba, 英語教室 千葉県, 小規模英会話, 個人英会話教室, 成田 英会話, 富里 英会話, 千葉市 英語">
-  <meta property="og:title" content="The Best Guide to English Schools in Chiba | 千葉英会話ガイド">
-  <meta property="og:description" content="Small, independent English schools across Chiba Prefecture. The best guide to boutique eikaiwa.">
+  <meta property="og:title" content="千葉英会話ガイド | The Best Guide to English Schools in Chiba">
+  <meta property="og:description" content="Independent English schools across Chiba Prefecture. Real teachers, real schools.">
   <meta property="og:type" content="website">
   <meta name="robots" content="index, follow">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "千葉英会話ガイド",
-    "description": "The best guide to boutique English conversation schools across Chiba Prefecture, Japan.",
-    "inLanguage": ["ja","en"]
-  }
-  </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"千葉英会話ガイド","description":"The best guide to boutique English conversation schools across Chiba Prefecture, Japan.","inLanguage":["ja","en"]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     :root{
-      --ink:#1c1c1a;--ink-mid:#4a4a46;--ink-soft:#888880;--ink-faint:#b8b8b0;
-      --page:#f7f6f2;--white:#ffffff;--card-bg:#ffffff;
-      --rule:#e4e2da;--rule-mid:#cccac2;
-      --accent:#2a7a4a;--accent-light:#e8f4ec;--accent-dark:#1d5c36;
-      --sans:'Nunito',sans-serif;--jp:'Noto Sans JP',sans-serif;
-      --r:12px;--r-lg:18px;--r-xl:24px;--r-pill:100px;--max:980px;
+      --ink:#1a1814;--ink-mid:#4a4640;--ink-soft:#888070;--ink-faint:#b8b0a0;
+      --page:#f4f1e8;--page-dark:#ede9dc;--white:#fdfcf8;--card-bg:#fdfcf8;
+      --rule:#ddd8cc;--rule-mid:#c8c2b4;
+      --accent:#2a7a4a;--accent-light:#e4f0e8;--accent-dark:#1d5c36;
+      --brown:#2e2218;--brown-mid:#3d2e1a;
+      --serif:'Playfair Display',serif;--sans:'Nunito',sans-serif;--jp:'Noto Sans JP',sans-serif;
+      --r:10px;--r-lg:16px;--r-xl:22px;--r-pill:100px;--max:980px;
     }
     html{scroll-behavior:smooth}
     body{font-family:var(--sans);background:var(--page);color:var(--ink);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
 
-    /* HEADER */
-    .site-header{background:var(--white);border-bottom:1px solid var(--rule);padding:0 1.5rem}
-    .header-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:1.1rem;padding:0.85rem 0}
-    .header-logo{height:52px;width:auto;display:block;flex-shrink:0;object-fit:contain}
-    .header-title{font-family:var(--sans);font-size:1.05rem;font-weight:800;color:var(--ink);line-height:1.25;text-decoration:none}
-    .header-title span{display:block;font-size:0.65rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.06em;text-transform:uppercase;margin-top:0.15rem}
+    /* ── HEADER ── */
+    .site-header{background:var(--brown);border-bottom:3px solid var(--accent);padding:0 1.5rem;position:relative;z-index:10}
+    .header-inner{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:1.1rem;padding:0.75rem 0}
+    .header-logo{height:52px;width:auto;display:block;flex-shrink:0;object-fit:contain;border-radius:8px}
+    .header-title{font-family:var(--sans);font-size:1rem;font-weight:800;color:#f4f1e8;line-height:1.25;text-decoration:none}
+    .header-title span{display:block;font-size:0.6rem;font-weight:600;color:rgba(244,241,232,0.45);letter-spacing:0.1em;text-transform:uppercase;margin-top:0.15rem}
+    .header-spacer{flex:1}
+    .header-note{font-size:0.68rem;font-weight:700;color:rgba(244,241,232,0.35);letter-spacing:0.07em;text-transform:uppercase;white-space:nowrap}
 
-    /* HERO */
-    .hero{background:var(--white);border-bottom:1px solid var(--rule);padding:2.75rem 1.5rem 2.25rem;overflow:hidden}
-    .hero-inner{max-width:var(--max);margin:0 auto}
-    .hero h1{font-family:var(--sans);font-size:clamp(1.75rem,4vw,2.6rem);font-weight:900;color:var(--ink);line-height:1.15;margin-bottom:0.5rem}
-    .hero h1 em{font-style:normal;color:var(--accent)}
-    .hero-sub{font-family:var(--jp);font-size:0.88rem;color:var(--ink-soft);margin-bottom:2.25rem;line-height:1.8}
+    /* ── HERO ── */
+    .hero{background:var(--brown);padding:3rem 1.5rem 0;overflow:hidden;position:relative}
+    .hero-map-bg{position:absolute;right:-3%;top:-5%;width:42%;opacity:0.06;pointer-events:none;user-select:none;filter:invert(1)}
+    .hero-inner{max-width:var(--max);margin:0 auto;position:relative;z-index:2}
+    .hero-top{display:grid;grid-template-columns:1fr 248px;gap:2.5rem;align-items:end;margin-bottom:0}
 
-    /* SLIDESHOW */
-    .slideshow-wrap{position:relative;height:130px;overflow:hidden}
-    .slideshow-track{position:relative;width:100%;height:130px}
-    .slide-item{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.7s ease}
-    .slide-item.active{opacity:1}
-    .slide-card{display:flex;align-items:center;gap:1.4rem;background:var(--page);border:1.5px solid var(--rule-mid);border-radius:var(--r-xl);padding:1.1rem 1.6rem;min-width:260px;max-width:460px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
-    .slide-icon{width:88px;height:88px;border-radius:var(--r-lg);flex-shrink:0;overflow:hidden;background:#f0f0ec;border:1.5px solid var(--rule);display:flex;align-items:center;justify-content:center}
-    .slide-icon img{width:100%;height:100%;object-fit:cover;display:block}
-    .slide-icon-initials{font-family:var(--sans);font-size:1.8rem;font-weight:900}
-    .slide-name{font-family:var(--jp);font-size:1rem;font-weight:700;color:var(--ink);line-height:1.3}
-    .slide-address{font-family:var(--jp);font-size:0.75rem;color:var(--ink-soft);margin-top:0.3rem;line-height:1.5}
-    .slide-dots{display:flex;justify-content:center;gap:6px;margin-top:1rem}
-    .slide-dot{width:7px;height:7px;border-radius:50%;background:var(--rule-mid);cursor:pointer;transition:background 0.2s,transform 0.2s;border:none;padding:0}
-    .slide-dot.active{background:var(--accent);transform:scale(1.35)}
+    .guide-eyebrow{font-size:0.66rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-bottom:0.8rem;display:flex;align-items:center;gap:0.55rem}
+    .guide-eyebrow::before{content:'';display:inline-block;width:18px;height:2px;background:var(--accent)}
+    .hero h1{font-family:var(--serif);font-size:clamp(2rem,4.2vw,3.1rem);font-weight:900;color:#f4f1e8;line-height:1.1;margin-bottom:1rem}
+    .hero h1 em{font-style:italic;color:#9ecfb0}
+    .hero-mission{font-family:var(--jp);font-size:0.86rem;color:rgba(244,241,232,0.58);line-height:1.95;border-left:2px solid rgba(42,122,74,0.6);padding-left:1rem;max-width:480px}
 
-    /* MAIN */
-    .main{max-width:var(--max);margin:0 auto;padding:2.5rem 1.5rem 5rem}
+    .stamp-row{display:flex;flex-wrap:wrap;gap:0.55rem;margin-top:1.5rem;padding-bottom:2.5rem}
+    .stamp{display:inline-flex;align-items:center;gap:0.35rem;font-size:0.68rem;font-weight:700;letter-spacing:0.06em;padding:0.32rem 0.8rem;border-radius:var(--r-pill);border:1.5px solid;text-transform:uppercase;white-space:nowrap}
+    .stamp-green{background:rgba(42,122,74,0.18);border-color:rgba(158,207,176,0.35);color:#9ecfb0}
+    .stamp-cream{background:rgba(244,241,232,0.06);border-color:rgba(244,241,232,0.18);color:rgba(244,241,232,0.5)}
+
+    /* FEATURED CARD */
+    .featured-wrap{align-self:end;padding-bottom:0}
+    .featured-label{font-size:0.6rem;font-weight:700;letter-spacing:0.11em;text-transform:uppercase;color:rgba(244,241,232,0.32);margin-bottom:0.5rem;text-align:right}
+    .featured-card{width:100%;border-radius:var(--r-lg) var(--r-lg) 0 0;overflow:hidden;border:1.5px solid rgba(244,241,232,0.1);border-bottom:none;box-shadow:0 -4px 24px rgba(0,0,0,0.25);cursor:pointer;text-decoration:none;display:block;transition:transform 0.2s;position:relative;bottom:-1px}
+    .featured-card:hover{transform:translateY(-3px)}
+    .featured-img{height:160px;overflow:hidden;position:relative}
+    .featured-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.4s}
+    .featured-card:hover .featured-img img{transform:scale(1.03)}
+    .featured-img-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,20,14,0.8) 0%,transparent 55%)}
+    .featured-info{background:var(--brown-mid);padding:0.8rem 1rem;border-top:1px solid rgba(244,241,232,0.08)}
+    .featured-name{font-family:var(--jp);font-size:0.88rem;font-weight:700;color:#f4f1e8;line-height:1.3}
+    .featured-city{font-size:0.67rem;color:rgba(244,241,232,0.42);margin-top:0.2rem}
+
+    /* WAVE */
+    .hero-wave{display:block;width:100%;position:relative;z-index:3;margin-bottom:-2px}
+
+    /* ── MAIN ── */
+    .main{max-width:var(--max);margin:0 auto;padding:2.5rem 1.5rem 5rem;position:relative;z-index:1}
+
+    /* EDITORIAL NOTE */
+    .editorial-note{background:var(--white);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:var(--r-lg);padding:1rem 1.35rem;margin-bottom:2rem;display:flex;align-items:flex-start;gap:0.9rem}
+    .editorial-icon{font-size:1.1rem;flex-shrink:0;margin-top:0.15rem;opacity:0.8}
+    .editorial-text{font-family:var(--jp);font-size:0.8rem;color:var(--ink-mid);line-height:1.9}
+    .editorial-text strong{color:var(--ink);font-weight:700}
+    .editorial-en{font-family:var(--sans);font-size:0.73rem;color:var(--ink-soft);margin-top:0.35rem;line-height:1.6}
 
     /* SECTION INTRO */
-    .section-intro{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.75rem;flex-wrap:wrap;gap:0.75rem}
-    .section-intro-text{font-family:var(--jp);font-size:0.82rem;color:var(--ink-soft)}
-    .total-badge{font-size:0.75rem;font-weight:700;color:var(--accent);background:var(--accent-light);border-radius:var(--r-pill);padding:0.3rem 0.9rem}
+    .section-intro{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem;flex-wrap:wrap;gap:0.75rem}
+    .section-intro-text{font-family:var(--jp);font-size:0.78rem;color:var(--ink-soft)}
+    .total-badge{font-size:0.7rem;font-weight:700;color:var(--accent);background:var(--accent-light);border-radius:var(--r-pill);padding:0.22rem 0.8rem;border:1px solid rgba(42,122,74,0.18)}
+
+    /* AREA GROUPS */
+    .area-group{margin-bottom:2.5rem}
+    .area-group-head{display:flex;align-items:center;gap:0.7rem;margin-bottom:0.9rem}
+    .area-stamp{font-family:var(--jp);font-size:0.72rem;font-weight:700;padding:0.28rem 0.8rem;border-radius:3px;border:2px solid var(--accent);color:var(--accent-dark);background:var(--accent-light);letter-spacing:0.04em;flex-shrink:0}
+    .area-name-en{font-size:0.67rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.05em;white-space:nowrap}
+    .area-rule{flex:1;height:1px;background:var(--rule)}
 
     /* CITY GRID */
-    .city-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
+    .city-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:0.9rem}
 
-    .city-tile{background:var(--white);border:1.5px solid var(--rule);border-radius:var(--r-xl);overflow:hidden;cursor:pointer;transition:border-color 0.2s,transform 0.2s,box-shadow 0.2s}
-    .city-tile:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 6px 24px rgba(42,122,74,0.1)}
-    .city-tile.open{border-color:var(--accent);box-shadow:0 6px 24px rgba(42,122,74,0.12)}
+    .city-tile{background:var(--white);border:1.5px solid var(--rule);border-radius:var(--r-xl);overflow:hidden;cursor:pointer;transition:border-color 0.18s,transform 0.18s,box-shadow 0.18s}
+    .city-tile:hover{border-color:rgba(42,122,74,0.35);transform:translateY(-2px);box-shadow:0 5px 18px rgba(0,0,0,0.07)}
+    .city-tile.open{border-color:var(--accent);box-shadow:0 4px 18px rgba(42,122,74,0.1)}
 
-    .city-tile-head{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.3rem;gap:0.75rem}
-    .city-tile-left{display:flex;align-items:center;gap:0.85rem}
-    .city-avatar-stack{display:flex;flex-direction:row}
-    .city-avatar{width:38px;height:38px;border-radius:50%;border:2.5px solid var(--white);overflow:hidden;background:#f0f0ec;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-left:-10px}
+    .city-tile-head{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.15rem;gap:0.75rem}
+    .city-tile-left{display:flex;align-items:center;gap:0.75rem}
+    .city-avatar-stack{display:flex}
+    .city-avatar{width:34px;height:34px;border-radius:50%;border:2px solid var(--white);overflow:hidden;background:var(--page-dark);display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-left:-8px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
     .city-avatar:first-child{margin-left:0}
     .city-avatar img{width:100%;height:100%;object-fit:cover}
-    .city-avatar-initials{font-size:0.75rem;font-weight:900}
-    .city-name-block{}
-    .city-name{font-family:var(--jp);font-size:1rem;font-weight:700;color:var(--ink);line-height:1.2}
-    .city-name-en{font-size:0.7rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.04em}
-    .city-tile-right{display:flex;align-items:center;gap:0.6rem;flex-shrink:0}
-    .city-count{font-size:0.72rem;font-weight:700;color:var(--accent);background:var(--accent-light);border-radius:var(--r-pill);padding:0.2rem 0.65rem}
-    .city-chevron{font-size:0.7rem;color:var(--ink-faint);transition:transform 0.25s}
+    .city-avatar-initials{font-size:0.68rem;font-weight:900;color:var(--ink-mid)}
+    .city-name{font-family:var(--jp);font-size:0.92rem;font-weight:700;color:var(--ink);line-height:1.2}
+    .city-name-en{font-size:0.64rem;font-weight:600;color:var(--ink-soft);letter-spacing:0.04em}
+    .city-tile-right{display:flex;align-items:center;gap:0.5rem;flex-shrink:0}
+    .city-count{font-size:0.65rem;font-weight:800;color:var(--accent);background:var(--accent-light);border-radius:var(--r-pill);padding:0.15rem 0.55rem;border:1px solid rgba(42,122,74,0.15)}
+    .city-chevron{font-size:0.6rem;color:var(--ink-faint);transition:transform 0.25s}
     .city-tile.open .city-chevron{transform:rotate(180deg)}
 
     /* SCHOOLS PANEL */
-    .schools-panel{display:none;border-top:1.5px solid var(--rule);padding:1.25rem;background:var(--page);display:none;flex-direction:column;gap:1rem}
+    .schools-panel{display:none;border-top:1px solid var(--rule);padding:1rem;background:var(--page);flex-direction:column;gap:0.85rem}
     .city-tile.open .schools-panel{display:flex}
 
     /* SCHOOL CARD */
-    .school-card{background:var(--card-bg);border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:border-color 0.15s}
-    .school-card:hover{border-color:var(--rule-mid)}
+    .school-card{background:var(--card-bg);border:1px solid var(--rule);border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;transition:border-color 0.15s,box-shadow 0.15s}
+    .school-card:hover{box-shadow:0 3px 12px rgba(0,0,0,0.06)}
 
-    .card-header{padding:1.1rem;display:flex;align-items:flex-start;gap:0.9rem;border-bottom:1px solid var(--rule)}
-    .card-logo{width:64px;height:64px;border-radius:var(--r);flex-shrink:0;overflow:hidden;background:#f0f0ec;border:1px solid var(--rule);display:flex;align-items:center;justify-content:center}
+    /* hero image card style */
+    .card-hero-img{height:165px;overflow:hidden;position:relative}
+    .card-hero-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.35s}
+    .school-card:hover .card-hero-img img{transform:scale(1.03)}
+    .card-hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,20,14,0.72) 0%,rgba(26,20,14,0.1) 55%,transparent 100%)}
+    .card-hero-name{position:absolute;bottom:0;left:0;right:0;padding:0.85rem 1rem}
+    .card-hero-name .card-name{color:#f4f1e8;font-size:1rem;font-family:var(--jp);font-weight:700;line-height:1.3}
+    .card-hero-name .card-name-en{font-size:0.7rem;font-weight:600;color:rgba(244,241,232,0.6);margin-top:0.1rem;margin-bottom:0.35rem}
+    .card-hero-name .card-location{display:flex;align-items:center;gap:0.4rem;font-family:var(--jp);font-size:0.67rem;color:rgba(244,241,232,0.5)}
+
+    /* logo thumbnail card style */
+    .card-header{padding:1rem;display:flex;align-items:flex-start;gap:0.85rem;border-bottom:1px solid var(--rule)}
+    .card-logo{width:58px;height:58px;border-radius:var(--r);flex-shrink:0;overflow:hidden;background:var(--page-dark);border:1px solid var(--rule);display:flex;align-items:center;justify-content:center}
     .card-logo img{width:100%;height:100%;object-fit:cover;display:block}
-    .card-logo-initials{font-family:var(--sans);font-size:1.3rem;font-weight:900}
+    .card-logo-initials{font-family:var(--sans);font-size:1.2rem;font-weight:900}
     .card-name-block{flex:1;min-width:0}
-    .card-name{font-family:var(--jp);font-size:0.95rem;font-weight:700;color:var(--ink);line-height:1.3}
-    .card-name-en{font-size:0.72rem;font-weight:600;color:var(--ink-soft);margin-top:0.1rem;margin-bottom:0.4rem}
-    .card-location{display:flex;align-items:center;gap:0.4rem;font-family:var(--jp);font-size:0.7rem;color:var(--ink-soft)}
-    .loc-dot{width:5px;height:5px;border-radius:50%;background:var(--ink-faint);flex-shrink:0}
+    .card-name{font-family:var(--jp);font-size:0.9rem;font-weight:700;color:var(--ink);line-height:1.3}
+    .card-name-en{font-size:0.69rem;font-weight:600;color:var(--ink-soft);margin-top:0.1rem;margin-bottom:0.35rem}
+    .card-location{display:flex;align-items:center;gap:0.4rem;font-family:var(--jp);font-size:0.67rem;color:var(--ink-soft)}
+    .loc-dot{width:4px;height:4px;border-radius:50%;background:var(--ink-faint);flex-shrink:0}
 
-    .age-tags{display:flex;flex-wrap:wrap;gap:0.3rem;padding:0.75rem 1.1rem;border-bottom:1px solid var(--rule)}
-    .age-tag{font-family:var(--jp);font-size:0.68rem;font-weight:700;padding:0.2rem 0.6rem;border-radius:var(--r-pill);border:1.5px solid}
+    .age-tags{display:flex;flex-wrap:wrap;gap:0.28rem;padding:0.65rem 1rem;border-bottom:1px solid var(--rule)}
+    .age-tag{font-family:var(--jp);font-size:0.64rem;font-weight:700;padding:0.17rem 0.52rem;border-radius:var(--r-pill);border:1.5px solid}
 
-    .card-prices{padding:0.85rem 1.1rem;border-bottom:1px solid var(--rule)}
-    .section-label{font-size:0.63rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:0.5rem}
-    .price-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.3rem;gap:0.5rem}
-    .price-name{font-family:var(--jp);font-size:0.75rem;color:var(--ink-mid);flex:1;line-height:1.4}
-    .price-amount{font-family:var(--sans);font-size:0.88rem;font-weight:800;color:var(--ink);white-space:nowrap}
+    .card-prices{padding:0.75rem 1rem;border-bottom:1px solid var(--rule)}
+    .section-label{font-size:0.58rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:0.4rem}
+    .price-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.25rem;gap:0.5rem}
+    .price-name{font-family:var(--jp);font-size:0.72rem;color:var(--ink-mid);flex:1;line-height:1.4}
+    .price-amount{font-family:var(--sans);font-size:0.84rem;font-weight:800;color:var(--ink);white-space:nowrap}
 
-    .card-points{padding:0.85rem 1.1rem;flex:1;border-bottom:1px solid var(--rule)}
-    .point-item{margin-bottom:0.65rem}
+    .card-points{padding:0.75rem 1rem;flex:1;border-bottom:1px solid var(--rule)}
+    .point-item{margin-bottom:0.58rem}
     .point-item:last-child{margin-bottom:0}
-    .point-jp{display:flex;gap:0.5rem;align-items:flex-start}
-    .point-dot{width:5px;height:5px;border-radius:50%;margin-top:0.52em;flex-shrink:0;background:var(--accent)}
-    .point-text-jp{font-family:var(--jp);font-size:0.8rem;color:var(--ink);line-height:1.5;font-weight:500}
-    .point-text-en{font-family:var(--sans);font-size:0.72rem;color:var(--ink-soft);line-height:1.5;margin-top:0.1rem;padding-left:1rem}
+    .point-jp{display:flex;gap:0.48rem;align-items:flex-start}
+    .point-dot{width:4px;height:4px;border-radius:50%;margin-top:0.56em;flex-shrink:0;background:var(--accent)}
+    .point-text-jp{font-family:var(--jp);font-size:0.77rem;color:var(--ink);line-height:1.55;font-weight:500}
+    .point-text-en{font-family:var(--sans);font-size:0.69rem;color:var(--ink-soft);line-height:1.5;margin-top:0.08rem;padding-left:0.85rem}
 
-    .card-footer{padding:0.9rem 1.1rem}
-    .visit-btn{display:block;width:100%;padding:0.68rem 1rem;border-radius:var(--r);font-family:var(--sans);font-size:0.85rem;font-weight:700;text-align:center;text-decoration:none;transition:opacity 0.15s;color:white}
-    .visit-btn:hover{opacity:0.85}
+    .card-footer{padding:0.8rem 1rem}
+    .visit-btn{display:block;width:100%;padding:0.62rem 1rem;border-radius:var(--r);font-family:var(--sans);font-size:0.82rem;font-weight:700;text-align:center;text-decoration:none;transition:opacity 0.15s,transform 0.15s;color:white}
+    .visit-btn:hover{opacity:0.87;transform:translateY(-1px)}
 
-    /* FOOTER */
-    .site-footer{background:var(--ink);color:#888880;padding:2.25rem 1.5rem;margin-top:2rem}
-    .footer-inner{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between}
-    .footer-name{font-size:1rem;font-weight:800;color:white;margin-bottom:0.4rem}
-    .footer-text{font-family:var(--jp);font-size:0.78rem;line-height:1.8}
+    /* ── FOOTER ── */
+    .site-footer{background:var(--brown);color:#706858;padding:2.5rem 1.5rem;margin-top:2rem;border-top:3px solid var(--accent)}
+    .footer-inner{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:flex-start}
+    .footer-logo-row{display:flex;align-items:center;gap:0.8rem;margin-bottom:0.6rem}
+    .footer-chiba{width:34px;height:34px;border-radius:6px;object-fit:contain}
+    .footer-name{font-family:var(--serif);font-size:1.05rem;font-weight:700;color:#f4f1e8}
+    .footer-text{font-family:var(--jp);font-size:0.76rem;line-height:1.9;color:#706858}
     .footer-link{color:#5aaa72;font-weight:600;text-decoration:none}
-    .footer-copy{max-width:var(--max);margin:1.5rem auto 0;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.1);font-size:0.72rem;color:#666660}
+    .footer-copy{max-width:var(--max);margin:1.5rem auto 0;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.07);font-size:0.68rem;color:#4a4038}
 
-    @media(max-width:640px){
-      .hero{padding:2rem 1.2rem 1.75rem}
-      .main{padding:2rem 1.2rem 3rem}
+    @media(max-width:680px){
+      .hero-top{grid-template-columns:1fr}
+      .featured-wrap{display:none}
+      .hero-map-bg{width:65%;opacity:0.04;right:-5%}
+      .main{padding:2rem 1.1rem 3rem}
       .city-grid{grid-template-columns:1fr}
     }
   </style>
 </head>
 <body>
 
+<!-- HEADER -->
 <header class="site-header">
   <div class="header-inner">
-    <img src="img/chiba_logo.png" alt="千葉県" class="header-logo">
+    <img src="img/chiba_logo-1.png" alt="千葉県" class="header-logo">
     <a href="/" class="header-title">
       千葉英会話ガイド
-      <span>The Best Guide to English Schools in Chiba</span>
+      <span>Chiba Eikaiwa Guide</span>
     </a>
+    <div class="header-spacer"></div>
+    <span class="header-note">千葉県 · Local Only</span>
   </div>
 </header>
 
+<!-- HERO -->
 <section class="hero">
+  <img src="img/chiba_logo-1.png" alt="" class="hero-map-bg" aria-hidden="true">
   <div class="hero-inner">
-    <h1>Find the best school<br>to fit your <em>goals.</em></h1>
-    <p class="hero-sub">
-      千葉県の小規模・個性派英会話スクールを紹介します。あなたの目標に合ったスクールを見つけよう。
-    </p>
-    <div class="slideshow-wrap">
-      <div class="slideshow-track" id="slideshowTrack"></div>
+    <div class="hero-top">
+
+      <div class="hero-text">
+        <div class="guide-eyebrow">Chiba Prefecture · 英会話ガイド</div>
+        <h1>Find the best school<br>to fit your <em>goals.</em></h1>
+        <p class="hero-mission">
+          千葉県の個性派英会話スクールだけを紹介します。地元に根ざした、オーナー直営のスクール。<br>
+          Independent, local, personality-driven English schools in Chiba — because that's what actually matters.
+        </p>
+        <div class="stamp-row">
+          <span class="stamp stamp-green">✓ 千葉県のみ</span>
+          <span class="stamp stamp-cream">✉ No email required</span>
+          <span class="stamp stamp-green">✓ Local teachers</span>
+        </div>
+      </div>
+
+      <div class="featured-wrap">
+        <div class="featured-label">今週のおすすめ · Featured</div>
+        <a class="featured-card" id="featuredCard" href="#" target="_blank" rel="noopener">
+          <div class="featured-img">
+            <img id="featuredImg" src="" alt="">
+            <div class="featured-img-overlay"></div>
+          </div>
+          <div class="featured-info">
+            <div class="featured-name" id="featuredName"></div>
+            <div class="featured-city" id="featuredCity"></div>
+          </div>
+        </a>
+      </div>
+
     </div>
-    <div class="slide-dots" id="slideDots"></div>
   </div>
+  <svg class="hero-wave" viewBox="0 0 1440 52" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,26 C360,52 720,0 1080,26 C1260,39 1380,18 1440,26 L1440,52 L0,52 Z" fill="#f4f1e8"/>
+  </svg>
 </section>
 
-<main class="main" id="schoolsMain">
+<!-- MAIN -->
+<main class="main">
+
+  <div class="editorial-note">
+    <span class="editorial-icon">📋</span>
+    <div class="editorial-text">
+      <strong>このガイドについて —</strong> ランキングではありません。掲載料もありません。千葉県内の小規模・個人経営の英会話スクールを、地域ごとに整理して紹介しています。学ぶ目標に合ったスクールをご自身で比べてください。
+      <div class="editorial-en">This is not a ranking. No paid placements. We list local, independent schools so families can compare real options — and choose what fits.</div>
+    </div>
+  </div>
+
   <div class="section-intro">
-    <span class="section-intro-text">エリアを選んでスクールを表示 · Tap a city to see schools</span>
+    <span class="section-intro-text">エリアをタップしてスクールを表示 · Tap an area to browse</span>
     <span class="total-badge" id="totalBadge"></span>
   </div>
-  <div class="city-grid" id="cityGrid"></div>
+
+  <div id="areaContainer"></div>
+
 </main>
 
 <footer class="site-footer">
   <div class="footer-inner">
     <div>
-      <div class="footer-name">千葉英会話ガイド</div>
+      <div class="footer-logo-row">
+        <img src="img/chiba_logo-1.png" alt="千葉" class="footer-chiba">
+        <div class="footer-name">千葉英会話ガイド</div>
+      </div>
       <div class="footer-text">
-        千葉県の小規模・個性派英会話スクールを紹介するガイド。<br>
+        千葉県の独立系英会話スクールを紹介するガイド。<br>
         The best guide to English schools across Chiba Prefecture.
       </div>
     </div>
@@ -198,7 +278,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-copy">© 2026 千葉英会話ガイド · Chiba Eikaiwa Guide</div>
+  <div class="footer-copy">© 2026 千葉英会話ガイド · Chiba Eikaiwa Guide · Made in Tomisato</div>
 </footer>
 
 <script src="schools.js"></script>
@@ -213,146 +293,163 @@
   ];
   const CARD_COLORS=['#2a7a4a','#1a4a8a','#7a2a4a','#4a2a8a','#7a4a1a','#1a6a6a'];
 
-  function buildSlideshow(){
-    const track=document.getElementById('slideshowTrack');
-    const dots=document.getElementById('slideDots');
-    const shuffled=[...SCHOOLS].sort(()=>Math.random()-0.5);
-    shuffled.forEach((s,i)=>{
-      const slide=document.createElement('div');
-      slide.className='slide-item'+(i===0?' active':'');
-      const icon=s.logo
-        ?`<img src="${s.logo}" alt="${s.name}">`
-        :`<span class="slide-icon-initials" style="color:${s.logoColor}">${s.logoInitials}</span>`;
-      slide.innerHTML=`
-        <div class="slide-card">
-          <div class="slide-icon">${icon}</div>
-          <div>
-            <div class="slide-name">${s.name}</div>
-            <div class="slide-address">${s.address||s.city+'、千葉県'}</div>
-          </div>
-        </div>`;
-      track.appendChild(slide);
-      const dot=document.createElement('button');
-      dot.className='slide-dot'+(i===0?' active':'');
-      dot.addEventListener('click',()=>goToSlide(i));
-      dots.appendChild(dot);
-    });
-    let cur=0;
-    function goToSlide(n){
-      track.querySelectorAll('.slide-item').forEach((el,i)=>el.classList.toggle('active',i===n));
-      dots.querySelectorAll('.slide-dot').forEach((el,i)=>el.classList.toggle('active',i===n));
-      cur=n;
-    }
-    if(shuffled.length>1) setInterval(()=>goToSlide((cur+1)%shuffled.length),2800);
+  const AREAS=[
+    {jp:'北総・成田エリア',en:'Kita-So / Narita Area',cities:['成田市','富里市','印西市','白井市','八街市','四街道市','佐倉市','山武市','大網白里市','東金市']},
+    {jp:'千葉市エリア',en:'Chiba City',cities:['千葉市']},
+    {jp:'東葛エリア',en:'Tokatsu Area',cities:['松戸市','柏市','流山市','我孫子市','鎌ケ谷市','野田市']},
+    {jp:'湾岸・西部エリア',en:'Bay / West Chiba',cities:['浦安市','市川市','船橋市','習志野市','八千代市','市原市']},
+    {jp:'外房・南房エリア',en:'Outer Bay / South Chiba',cities:['銚子市','旭市','匝瑙市','香取市','いすみ市','茂原市','勝浦市','鴨川市','南房総市','館山市','木更津市','君津市','富津市','袖ケ浦市']},
+  ];
+
+  function getArea(cityJp){
+    for(const a of AREAS) if(a.cities.includes(cityJp)) return a;
+    return {jp:'その他',en:'Other'};
+  }
+
+  function buildFeatured(){
+    const pick=SCHOOLS[Math.floor(Math.random()*SCHOOLS.length)];
+    const card=document.getElementById('featuredCard');
+    card.href=pick.website;
+    const img=document.getElementById('featuredImg');
+    img.src=pick.heroImage||pick.logo||'';
+    img.alt=pick.name;
+    document.getElementById('featuredName').textContent=pick.name;
+    document.getElementById('featuredCity').textContent=pick.address||pick.city+'、千葉県';
   }
 
   function buildCard(school,idx){
     const btnColor=CARD_COLORS[idx%CARD_COLORS.length];
-    const icon=school.logo
-      ?`<img src="${school.logo}" alt="${school.name}">`
-      :`<span class="card-logo-initials" style="color:${school.logoColor}">${school.logoInitials}</span>`;
     const ages=school.ages.map((age,i)=>{
       const c=AGE_COLORS[i%AGE_COLORS.length];
       return `<span class="age-tag" style="background:${c.bg};border-color:${c.border};color:${c.text}">${age}</span>`;
     }).join('');
     const prices=school.prices.map(p=>`
-      <div class="price-row">
-        <span class="price-name">${p.label}</span>
-        <span class="price-amount">${p.amount}</span>
-      </div>`).join('');
+      <div class="price-row"><span class="price-name">${p.label}</span><span class="price-amount">${p.amount}</span></div>`).join('');
     const points=school.points.map((jp,i)=>`
       <div class="point-item">
-        <div class="point-jp">
-          <div class="point-dot"></div>
-          <span class="point-text-jp">${jp}</span>
-        </div>
+        <div class="point-jp"><div class="point-dot"></div><span class="point-text-jp">${jp}</span></div>
         <div class="point-text-en">${school.pointsEn[i]||''}</div>
       </div>`).join('');
-    return `
-      <article class="school-card" data-id="${school.id}">
-        <div class="card-header">
-          <div class="card-logo">${icon}</div>
+
+    const headerHtml=school.heroImage
+      ?`<div class="card-hero-img">
+          <img src="${school.heroImage}" alt="${school.name}">
+          <div class="card-hero-overlay"></div>
+          <div class="card-hero-name">
+            <div class="card-name">${school.name}</div>
+            <div class="card-name-en">${school.nameEn}</div>
+            <div class="card-location"><span class="loc-dot" style="background:rgba(244,241,232,0.35)"></span>${school.address||school.city+'、千葉県'}</div>
+          </div>
+        </div>`
+      :`<div class="card-header">
+          <div class="card-logo">${school.logo
+            ?`<img src="${school.logo}" alt="${school.name}">`
+            :`<span class="card-logo-initials" style="color:${school.logoColor}">${school.logoInitials}</span>`}
+          </div>
           <div class="card-name-block">
             <div class="card-name">${school.name}</div>
             <div class="card-name-en">${school.nameEn}</div>
             <div class="card-location"><span class="loc-dot"></span>${school.address||school.city+'、千葉県'}</div>
           </div>
-        </div>
+        </div>`;
+
+    return `
+      <article class="school-card" data-id="${school.id}">
+        ${headerHtml}
         <div class="age-tags">${ages}</div>
-        <div class="card-prices">
-          <div class="section-label">料金 / Prices</div>${prices}
-        </div>
-        <div class="card-points">
-          <div class="section-label">おすすめポイント / Why join</div>${points}
-        </div>
+        <div class="card-prices"><div class="section-label">料金 / Prices</div>${prices}</div>
+        <div class="card-points"><div class="section-label">おすすめポイント / Why join</div>${points}</div>
         <div class="card-footer">
           <a href="${school.website}" class="visit-btn" style="background:${btnColor}" target="_blank" rel="noopener">ウェブサイトへ → Visit website</a>
         </div>
       </article>`;
   }
 
-  function buildCityGrid(){
-    const grid=document.getElementById('cityGrid');
-    const badge=document.getElementById('totalBadge');
-    badge.textContent=SCHOOLS.length+' スクール掲載中';
+  function buildCityTile(city,schools,cardIdxRef){
+    const en=schools[0].cityEn;
+    const avatars=schools.slice(0,3).map(s=>{
+      const src=s.heroImage||s.logo;
+      const inner=src
+        ?`<img src="${src}" alt="${s.name}">`
+        :`<span class="city-avatar-initials" style="color:${s.logoColor}">${s.logoInitials}</span>`;
+      return `<div class="city-avatar">${inner}</div>`;
+    }).join('');
+    const cardsHtml=schools.map(s=>buildCard(s,cardIdxRef.idx++)).join('');
 
-    const cities=[...new Set(SCHOOLS.map(s=>s.city))];
-    let cardIdx=0;
-
-    cities.forEach(city=>{
-      const list=SCHOOLS.filter(s=>s.city===city);
-      const en=list[0].cityEn;
-
-      // Avatar stack (up to 3)
-      const avatars=list.slice(0,3).map(s=>{
-        const img=s.logo
-          ?`<img src="${s.logo}" alt="${s.name}">`
-          :`<span class="city-avatar-initials" style="color:${s.logoColor}">${s.logoInitials}</span>`;
-        return `<div class="city-avatar">${img}</div>`;
-      }).join('');
-
-      // Cards html
-      const cardsHtml=list.map(s=>buildCard(s,cardIdx++)).join('');
-
-      const tile=document.createElement('div');
-      tile.className='city-tile';
-      tile.dataset.city=city;
-      tile.innerHTML=`
-        <div class="city-tile-head">
-          <div class="city-tile-left">
-            <div class="city-avatar-stack">${avatars}</div>
-            <div class="city-name-block">
-              <div class="city-name">${city}</div>
-              <div class="city-name-en">${en}</div>
-            </div>
-          </div>
-          <div class="city-tile-right">
-            <span class="city-count">${list.length}</span>
-            <span class="city-chevron">▼</span>
+    const tile=document.createElement('div');
+    tile.className='city-tile';
+    tile.dataset.city=city;
+    tile.innerHTML=`
+      <div class="city-tile-head">
+        <div class="city-tile-left">
+          <div class="city-avatar-stack">${avatars}</div>
+          <div>
+            <div class="city-name">${city}</div>
+            <div class="city-name-en">${en}</div>
           </div>
         </div>
-        <div class="schools-panel">${cardsHtml}</div>`;
+        <div class="city-tile-right">
+          <span class="city-count">${schools.length}</span>
+          <span class="city-chevron">▼</span>
+        </div>
+      </div>
+      <div class="schools-panel">${cardsHtml}</div>`;
 
-      tile.querySelector('.city-tile-head').addEventListener('click',()=>{
-        const isOpen=tile.classList.contains('open');
-        // Close all
-        document.querySelectorAll('.city-tile.open').forEach(t=>{
-          t.classList.remove('open');
-          t.querySelector('.schools-panel').style.display='none';
-        });
-        if(!isOpen){
-          tile.classList.add('open');
-          tile.querySelector('.schools-panel').style.display='flex';
-          setTimeout(()=>tile.scrollIntoView({behavior:'smooth',block:'nearest'}),50);
-        }
+    tile.querySelector('.city-tile-head').addEventListener('click',()=>{
+      const isOpen=tile.classList.contains('open');
+      document.querySelectorAll('.city-tile.open').forEach(t=>{
+        t.classList.remove('open');
+        t.querySelector('.schools-panel').style.display='none';
       });
-
-      grid.appendChild(tile);
+      if(!isOpen){
+        tile.classList.add('open');
+        tile.querySelector('.schools-panel').style.display='flex';
+        setTimeout(()=>tile.scrollIntoView({behavior:'smooth',block:'nearest'}),60);
+      }
     });
+    return tile;
   }
 
-  buildSlideshow();
-  buildCityGrid();
+  function buildAreaGroups(){
+    const container=document.getElementById('areaContainer');
+    document.getElementById('totalBadge').textContent=SCHOOLS.length+' スクール掲載中';
+
+    const areaMap=new Map();
+    SCHOOLS.forEach(s=>{
+      const a=getArea(s.city);
+      if(!areaMap.has(a.jp)) areaMap.set(a.jp,{area:a,cities:new Map()});
+      const ac=areaMap.get(a.jp);
+      if(!ac.cities.has(s.city)) ac.cities.set(s.city,[]);
+      ac.cities.get(s.city).push(s);
+    });
+
+    const rendered=new Set();
+    const cardIdxRef={idx:0};
+
+    const renderArea=(areaJp,data)=>{
+      if(rendered.has(areaJp)) return;
+      rendered.add(areaJp);
+      const {area,cities}=data;
+      const section=document.createElement('div');
+      section.className='area-group';
+      section.innerHTML=`
+        <div class="area-group-head">
+          <span class="area-stamp">${area.jp}</span>
+          <span class="area-name-en">${area.en}</span>
+          <div class="area-rule"></div>
+        </div>
+        <div class="city-grid"></div>`;
+      container.appendChild(section);
+      const grid=section.querySelector('.city-grid');
+      cities.forEach((schools,city)=>grid.appendChild(buildCityTile(city,schools,cardIdxRef)));
+    };
+
+    AREAS.forEach(a=>{if(areaMap.has(a.jp)) renderArea(a.jp,areaMap.get(a.jp));});
+    areaMap.forEach((_,jp)=>renderArea(jp,areaMap.get(jp)));
+  }
+
+  buildFeatured();
+  buildAreaGroups();
 </script>
 </body>
 </html>
