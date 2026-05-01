@@ -6,8 +6,8 @@ const SCHOOLS = [
     nameEn: "Bryan's English School",
     city: "富里市",
     cityEn: "Tomisato",
-    address: "富里市、千葉県",
-    logo: "img/bryans_english_school.png",
+    address: "千葉県富里市七栄35-21",
+    heroImage: "img/bryans_english_school.png",
     logoInitials: "BH",
     logoColor: "#1a6b3a",
     logoTextColor: "#ffffff",
@@ -30,5 +30,36 @@ const SCHOOLS = [
       "Custom student app Booha Adventure keeps learning going outside class"
     ],
     website: "https://www.bryanharper.tokyo"
+  },
+  {
+    id: "the-english-factory",
+    name: "英会話スクール",
+    nameEn: "The English Factory",
+    city: "千葉市",
+    cityEn: "Chiba City",
+    address: "千葉市花見川区幕張本郷2丁目8-23-102",
+    logo: "img/the_english_factory_logo.png",
+    logoInitials: "EF",
+    logoColor: "#1a4a8a",
+    logoTextColor: "#ffffff",
+    ages: ["子ども（2.5歳〜）", "中高生", "大人", "シニア"],
+    agesEn: ["Kids (from 2.5)", "Teens", "Adults", "Seniors"],
+    prices: [
+      { label: "無料体験レッスン / Free trial", amount: "無料 / Free" },
+      { label: "月謝 / Monthly", amount: "要問合せ / Inquire" }
+    ],
+    points: [
+      "レッスン中はほぼ100%英語で話し、英語で考える",
+      "英語はスキル。反復トレーニングで会話を自動化する",
+      "ゲームなし、近道なし。段階的トレーニングで本物の英語力を",
+      "経験30年以上のネイティブ講師。少人数制＆プライベートレッスン対応"
+    ],
+    pointsEn: [
+      "Almost 100% English in every lesson — you speak and think in English the entire time",
+      "English is a skill, not a subject — patterns are trained until they come out automatically",
+      "No gimmicks, no shortcuts — step-by-step training that builds real ability",
+      "30+ years experience, native instructor, small groups and private lessons available"
+    ],
+    website: "https://www.the-english-factory.com/"
   }
 ];
