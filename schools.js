@@ -38,7 +38,7 @@ const SCHOOLS = [
     city: "千葉市",
     cityEn: "Chiba City",
     address: "千葉市花見川区幕張本郷2丁目8-23-102",
-    logo: "img/the_english_factory_logo.png",
+    logo: "img/english_factory.png",
     logoInitials: "EF",
     logoColor: "#1a4a8a",
     logoTextColor: "#ffffff",
